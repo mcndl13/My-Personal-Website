@@ -1,0 +1,98 @@
+.special{
+    font-style: italic;
+    font-family: 'Radley', serif;
+    font-weight: 500;    
+}
+
+div > h1 {
+    font-size: 4.0625rem; /* 81px */
+    text-transform: uppercase;
+    font-family: 'Radley', serif;
+}
+
+@media (max-width: 767px) {
+    div > h1 {
+        font-size: 3.0625rem; /* 81px */
+        text-transform: uppercase;
+        font-family: 'Radley', serif;
+    }
+}
+
+@media (min-width: 992px) {
+    .footer-txt{
+        font-size: 0.9rem;
+    }
+}
+
+
+
+.normal-text{
+    font-size: 1.3rem;
+}
+
+.about-me{
+    font-size: 1.1rem;
+}
+
+
+.brown{
+    color: #9B4819;
+
+}
+
+.biography{
+    background-color: #F6F6F6;
+}
+
+
+
+.portrait{
+    border-radius: 545%;
+    border: 10px solid ;
+    color: #605550;
+}
+
+div#title {
+    display: flex;
+    height: 80vh;
+    align-items: center;
+}
+
+.co-op{
+    text-decoration: none;
+
+}
+
+section#testimonial > img{
+    height: 130px;
+}
+
+.icon{
+    height: 100px;
+}
+
+
+.icons{
+    background-color: #F4F1E8;
+    border-radius: 25px;
+}
+
+
+.part-1{
+    background-color: #F4F1E8;
+    height: 100vh;
+}
+
+
+
+.part-5{
+    background-color: #605550;
+}
+
+.inner-design{
+    background-color: #F4F1E8;
+}
+
+#footer{
+    background-color: #F6F6F6;
+}
