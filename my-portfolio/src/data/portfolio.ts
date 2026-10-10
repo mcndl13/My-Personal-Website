@@ -1,3 +1,5 @@
+const publicAsset = (path: string) => `${import.meta.env.BASE_URL}${path}`;
+
 export const profile = {
   name: "Mouhamed",
   role: "Software Engineer",
@@ -5,7 +7,7 @@ export const profile = {
   location: "Montréal, Québec",
   github: "https://github.com/mcndl13",
   linkedin: "https://www.linkedin.com/in/mouhamed-coundoul-873672255/",
-  resume: "/resume.pdf",
+  resume: publicAsset("resume.pdf"),
 };
 
 export type ProjectVisual =
@@ -149,7 +151,7 @@ export const experience: Experience[] = [
     position: "UX Software Developer Intern",
     period: "Jan – Apr 2024",
     location: "Saint-Laurent, QC",
-    logo: "/assets/cb544.png",
+    logo: publicAsset("assets/cb544.png"),
     impact:
       "Software engineering experience focused on reusable interfaces, frontend quality and product collaboration.",
     achievements: [
@@ -164,7 +166,7 @@ export const experience: Experience[] = [
     position: "Business Analyst Intern",
     period: "May – Aug 2023",
     location: "Montréal, QC",
-    logo: "/assets/74c37.png",
+    logo: publicAsset("assets/74c37.png"),
     impact:
       "An analytical role connecting technical teams, operational data and business requirements.",
     achievements: [

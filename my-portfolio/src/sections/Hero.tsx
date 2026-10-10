@@ -48,7 +48,7 @@ export default function Hero() {
             <figure className="portrait-wrap">
               <img
                 className="portrait"
-                src="/assets/07851.png"
+                src={`${import.meta.env.BASE_URL}assets/07851.png`}
                 alt="Portrait of Mouhamed"
                 width="1239"
                 height="1222"
