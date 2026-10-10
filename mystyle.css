@@ -1,92 +1,82 @@
-.special{
-    font-style: italic;
-    font-family: 'Radley', serif;
-    font-weight: 500;    
+.special {
+  font-style: italic;
+  font-family: "Radley", serif;
+  font-weight: 500;
 }
 
 div > h1 {
-    text-transform: uppercase;
-    font-family: 'Radley', serif;
+  text-transform: uppercase;
+  font-family: "Radley", serif;
 }
 
 @media (max-width: 390px) {
-    div > h1 {
-        font-size: 35px !important; /* 81px */
-        text-transform: uppercase;
-        font-family: 'Radley', serif;
-    }
+  div > h1 {
+    font-size: 35px !important;
+    text-transform: uppercase;
+    font-family: "Radley", serif;
+  }
 }
 
 @media (min-width: 992px) {
-    .footer-txt{
-        font-size: 0.9rem;
-    }
+  .footer-txt {
+    font-size: 0.9rem;
+  }
 }
 
-
-.about-me{
-    font-size: 1.1rem;
+.about-me {
+  font-size: 1.1rem;
 }
 
-
-.brown{
-    color: #9B4819;
-
+.brown {
+  color: #9b4819;
 }
 
-.biography{
-    background-color: #F6F6F6;
+.biography {
+  background-color: #f6f6f6;
 }
 
-
-
-.portrait{
-    border-radius: 545%;
-    border: 10px solid ;
-    color: #605550;
+.portrait {
+  border-radius: 545%;
+  border: 10px solid;
+  color: #605550;
 }
 
 div#title {
-    display: flex;
-    height: 80vh;
-    align-items: center;
+  display: flex;
+  height: 80vh;
+  align-items: center;
 }
 
-.co-op{
-    text-decoration: none;
-
+.co-op {
+  text-decoration: none;
 }
 
-section#testimonial > img{
-    height: 130px;
+section#testimonial > img {
+  height: 130px;
 }
 
-.icon{
-    height: 100px;
+.icon {
+  height: 100px;
 }
 
-
-.icons{
-    background-color: #F4F1E8;
-    border-radius: 25px;
+.icons {
+  background-color: #f4f1e8;
+  border-radius: 25px;
 }
 
-
-.part-1{
-    background-color: #F4F1E8;
-    height: 100vh;
+.part-1 {
+  background-color: #f4f1e8;
+  height: 100vh;
 }
 
-
-
-.part-5{
-    background-color: #605550;
+.part-5 {
+  background-color: #605550;
 }
 
-.inner-design{
-    background-color: #F4F1E8;
+.inner-design {
+  background-color: #f4f1e8;
 }
 
-#footer{
-    background-color: #F6F6F6;
+#footer {
+  background-color: #f6f6f6;
 }
