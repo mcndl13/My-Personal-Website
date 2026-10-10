@@ -1,23 +1,27 @@
-import "./App.css";
-import { AboutMe } from "./pages/AboutMe";
-import { Experience } from "./pages/Experience";
-import { Projects } from "./pages/Projects";
-import { Skills } from "./pages/Skills";
-import { Hero } from "./pages/Hero";
-import React from "react";
-
-function App() {
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Hero from "./sections/Hero";
+import Work from "./sections/Work";
+import Skills from "./sections/Skills";
+import Experience from "./sections/Experience";
+import About from "./sections/About";
+import Contact from "./sections/Contact";
+export default function App() {
   return (
-    <>
-      <div>
+    <div id="top" className="portfolio-app">
+      <a className="skip-link" href="#main">
+        Skip to content
+      </a>
+      <Header />
+      <main id="main">
         <Hero />
-        <AboutMe />
+        <Work />
         <Skills />
         <Experience />
-        <Projects />
-      </div>
-    </>
+        <About />
+        <Contact />
+      </main>
+      <Footer />
+    </div>
   );
 }
-
-export default App;
