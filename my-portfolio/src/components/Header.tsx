@@ -53,6 +53,28 @@ export default function Header() {
               Résumé ↗︎
             </a>
           )}
+          {profile.github && (
+            <a
+              className="nav-social"
+              href={profile.github}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="GitHub profile"
+            >
+              GitHub
+            </a>
+          )}
+          {profile.linkedin && (
+            <a
+              className="nav-social"
+              href={profile.linkedin}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="LinkedIn profile"
+            >
+              LinkedIn
+            </a>
+          )}
           <a href={`mailto:${profile.email}`} className="nav-contact">
             Get in touch <Arrow diagonal />
           </a>
